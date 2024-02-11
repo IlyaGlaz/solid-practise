@@ -8,7 +8,8 @@ import java.time.Month
 import java.time.format.DateTimeFormatter
 
 /**
- * Проблема, когда надо написать логику для другого вида операций. Например - вычислить сумму транзакций за январь.
+ * Проблема, когда надо написать логику для другого вида операций.
+ * Например - вычислить сумму транзакций за январь.
  */
 object BankStatementAnalyzerProblematic {
     private const val RESOURCES = "src/main/resources/"
